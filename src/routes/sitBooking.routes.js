@@ -1,4 +1,5 @@
 import {Router} from "express";
+import sitModel from "../models/sits.model.js";
 
 const router = Router();
 

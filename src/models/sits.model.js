@@ -12,6 +12,6 @@ const sitSchema = new mongoose.Schema({
   }
 });
 
-const sitModel = mongoose.model("sitArrangement", sitSchema);
+const sitModel = mongoose.model("sitarrangement", sitSchema);
 
 export default sitModel;
