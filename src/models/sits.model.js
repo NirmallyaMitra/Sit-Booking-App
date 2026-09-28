@@ -6,7 +6,7 @@ const sitSchema = new mongoose.Schema({
     required: [true, "Sit number is required."]
   },
   sitStatus:{
-    type: Boolean,
+    type: String,
     required: [true, "Status is required."],
     default: "AVAILABLE"
   }
