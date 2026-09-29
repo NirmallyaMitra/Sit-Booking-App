@@ -3,7 +3,8 @@ import mongoose from "mongoose";
 const sitSchema = new mongoose.Schema({
   sitno: {
     type: String,
-    required: [true, "Sit number is required."]
+    required: [true, "Sit number is required."],
+    unique: true
   },
   sitStatus:{
     type: String,
